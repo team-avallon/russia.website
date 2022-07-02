@@ -1,0 +1,178 @@
+body {
+	
+    margin: 0;
+opacity: .8;
+    background: linear-gradient( to right, #fdf5e6, #fdf5e6,#eef2f3,  #eef2f3 , #fdf5e6, #fdf5e6);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+
+.btn:hover {
+	background-position: left;
+	background-position: right;
+	
+}
+.btn {
+	transition: 1.4s;
+border-radius: 3px;
+
+
+
+}
+
+.title__text {
+    color: #fa709a;
+
+    background: linear-gradient( 50deg, 
+    #1a2a6c
+    ,
+    #b21f1f
+    ,
+    #fdbb2d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	animation: gradient 10s ease infinite;
+	background-size: 400% 400%;
+	
+	@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+    
+    }}
+
+
+    h1{
+	
+        margin-left:800px;
+   margin-bottom: 100px;
+   
+    
+    }
+
+hr{
+    width:1050px;
+
+}
+   
+
+
+    h4 {
+font-style: initial;
+margin-left: 480px;
+margin-right: -200px;
+    }
+    
+    
+    .block{
+        width: 500px;
+        height: 350px;
+        position: relative;
+   
+    }
+    
+    .block .prewive{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 15% 3%;
+        box-sizing: border-box;
+    }
+    .block:hover .prewive{
+        display: block;
+        background: rgba(248, 216, 174, 0.863);
+      cursor: pointer;
+    }
+
+    a {
+        text-decoration: none
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+      
+      a.help-a:hover {
+        text-decoration: none;
+      }
+
+      
+      .link-ease-in-out a {
+        display: inline-block;
+        color: #008cff; /* Цвет обычной ссылки */
+        line-height: 1;
+        text-decoration: none; /* Убираем подчеркивание */
+        cursor: pointer;
+    }
+    .link-ease-in-out a:after {
+        background-color: #ffa600; /* Цвет линии при наведении на нее курсора мыши */
+        display: block;
+        content: "";
+        height: 2px; /* Высота линии */
+        width: 0%;
+        -webkit-transition: width .3s ease-in-out;
+        -moz--transition: width .3s ease-in-out;
+        transition: width .3s ease-in-out;
+    }
+    .link-ease-in-out a:hover:after,
+    .link-ease-in-out a:focus:after {
+        width: 100%;
+    }
+
+    #verticle-line {
+        width: 1px;
+        min-height: 400px;
+        background: red;
+      }
+
+     
+#blink-2{
+  color: rgba(11, 4, 110, 0.616);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  animation:blur .75s ease-out infinite;
+  text-shadow:text-shadow 0 0 5px rgb(32, 139, 247);
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px rgba(122, 5, 255, 0.856),
+      0px 0px 10px rgb(255, 255, 255), 
+      0px 0px 25px rgb(178, 8, 230),
+      0px 0px 25px rgb(211, 12, 111),
+   
+
+      0px 0px 50px rgb(12, 221, 236),
+      0px 0px 50px rgb(32, 139, 247),
+      0px 0px 150px rgb(32, 139, 247),
+      0px 10px 100px rgb(32, 139, 247),
+
+  
+      0px -10px 100px rgb(32, 139, 247);}
+}
+
+
+   

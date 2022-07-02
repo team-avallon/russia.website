@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #000;
+  }
+  
+  .container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .container span{
+    text-transform: uppercase;
+    display: block;
+  }
+  
+  .text10{
+    
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    
+    position: relative;
+    animation: text 2s 1;
+    
+  }
+  
+  .text20{
+    color: cadetblue;
+    font-size: 30px;
+  }
+  
+  @keyframes text{
+    0%{
+      color: #000;
+      margin-bottom: -40px;
+    }
+    30%{
+      letter-spacing: 25px;
+      margin-bottom: -40px;
+    }
+    85%{
+      letter-spacing: 8px;
+      margin-bottom: -40px;
+    }
+  }
+
+
+
+  .btn:hover {
+	background-position: left;
+	background-position: right;
+	
+}
+.btn {
+	transition: 1.4s;
+border-radius: 3px;
+}
+
+.text {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: arial;
+    color: #13678a;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .text:hover {
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 30%, #000 50%, rgba(0, 0, 0, .6) 70%);
+    -webkit-mask-size: 200%;
+    animation: wave 2s infinite;
+  }
+  
+  @-webkit-keyframes wave {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }
